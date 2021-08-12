@@ -1,0 +1,102 @@
+:root {
+	--sm: 576px;
+	--md: 768px;
+	--lg: 1024px;
+	--box-shadow: #cfcfcf;
+	--yellow-bg: #d5b700;
+	--light-yellow-bg: #e2c95f;
+	--text-yellow: #b28f04;
+}
+
+html, body {
+	background: #000;
+	color:white;
+}
+.page2 hr {
+	border: 3px solid #000;
+	margin:0px;
+}
+.page2 dt{
+	font-weight:normal;
+}
+
+.p-2 > h2{
+	background-color: white;
+	color: #000;
+	
+}
+
+.header-image{
+ margin-right: auto;
+ margin-left: auto;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.grid-item-5{
+	grid-row: 3/span 4;
+}
+
+[class*="grid-item-"]>ul{
+	list-style-type: none;
+}
+
+.icon{
+color: #fff;
+}
+
+.page2 .form-background {
+	background: #fcf8ee;
+	box-shadow: 5px 5px 10px var(--box-shadow);
+}
+
+.page2 .section-activity {
+	background: #fff;
+}
+
+.page2 .section-activityA .form-group {
+	margin-bottom:0px;
+}
+
+.page2 .section-activityA label {
+	margin-bottom:0px;
+}
+
+.page2 .section-activityA label {
+	margin-bottom:0px;
+}
+
+.page2 .section-activityC-comment {
+	background-color: var( --dark-grey-bg);
+}
+
+.page2 .section-activityC-comment li::marker {
+	font-family: Campton-Light;
+	font-size: var(--font-9pt);
+	content: '\2014';
+}
+
+.page2 .section-img img {
+	box-shadow: 5px 5px 10px var(--box-shadow);
+}
+
+
+/* Mobile devices (576px and down) */
+@media only screen and (max-width: 576px) {
+
+	.page2 h1 {
+		overflow-wrap: break-word;
+	}
+}
+
+/* Ipad devices (above 576px and below 768px) */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+	
+}
+
+/* Desktop devices (768px and up) */
+@media only screen and (min-width: 768px) {
+}
